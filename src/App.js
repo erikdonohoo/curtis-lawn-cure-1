@@ -27,7 +27,7 @@ function App() {
     >
       <div>
         <Router>
-          <div
+          <div class="header"
             style={{
               display: "flex",
               justifyContent: "space-between",
@@ -48,8 +48,8 @@ function App() {
                 flexDirection: "column"
               }}
             >
-              <h3 style={{textAlign:'end', paddingRight:'20px' }}>801-254-0405</h3>
-              <div style={{textAlign:'end', paddingRight:'20px'  }}>
+              <h3 class='number' >801-254-0405</h3>
+              <div class='media-links'>
                 <img
                   style={{
                     padding: "7px",
@@ -82,7 +82,7 @@ function App() {
                 <nav
                   style={{ paddingRight: "75px" }}
                 >
-                  <ul style={{ display: "flex", flexDirection: "row" }}>
+                  <ul class='nav' >
                     <h3>
                       <li style={{ padding: "0px 5px", listStyleType: "none" }}>
                         <Link
