@@ -13,7 +13,7 @@ function Home() {
           display: "flex",
           flexDirection: "column",
           textAlign: "center",
-          padding: '10px 100px'
+          padding: '10px 50px'
         }}
       >
         <h3 style={{color:'green'}}>A Lawn Cure Program based on Local Experience</h3>

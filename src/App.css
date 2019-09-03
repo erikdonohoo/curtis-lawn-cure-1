@@ -23,6 +23,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -47,7 +49,38 @@
 .nav {
   display: flex;
   flex-direction: row;
+  margin: 0px;
+  text-align: right
+}
+.list-item {
+  padding: 0px 5px;
+  font-size: 20px;
+  list-style-type: none;
+  
+}
 
+.nav-div {
+  padding-top: 70px;
+  padding-right: 40px;
+}
+
+.top-profiles {
+  display: flex;
+  justify-content: space-between;
+  height: relative
+}
+
+.name {
+  color: green
+}
+
+.about-page {
+  padding: 0px 100px
+}
+
+.profile {
+  padding: 20px;
+  width: 50%;
 }
 
 @media only screen and (max-width: 550px) {
@@ -60,5 +93,26 @@
   .nav {
     padding: 2px;
     flex-direction: column;
+    
   }
+  .nav-div {
+    padding: 0px
+  }
+  
+  .top-profiles {
+    flex-direction: column;
+
+  }
+
+  .about-page {
+    padding: 0px 20px
+  }
+
+  .profile {
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    
+  }
+
 }

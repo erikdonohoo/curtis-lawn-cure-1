@@ -32,6 +32,7 @@ function App() {
               display: "flex",
               justifyContent: "space-between",
               backgroundImage: "url(" + bg + ")",
+              paddingTop:'15px'
             }}
           >
             <img
@@ -78,13 +79,13 @@ function App() {
                   src={Twitter}
                 ></img>
               </div>
-              <div style={{marginTop:'30px'}}>
+              <div class='nav-div'>
                 <nav
                   style={{ paddingRight: "75px" }}
                 >
                   <ul class='nav' >
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/"
@@ -92,9 +93,9 @@ function App() {
                           Home
                         </Link>
                       </li>
-                    </h3>
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/services"
@@ -102,9 +103,9 @@ function App() {
                           Services
                         </Link>
                       </li>
-                    </h3>
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/about"
@@ -112,9 +113,9 @@ function App() {
                           About
                         </Link>
                       </li>
-                    </h3>
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/faq"
@@ -122,9 +123,9 @@ function App() {
                           FAQ
                         </Link>
                       </li>
-                    </h3>
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/blog"
@@ -132,9 +133,9 @@ function App() {
                           Blog
                         </Link>
                       </li>
-                    </h3>
-                    <h3>
-                      <li style={{ padding: "0px 5px", listStyleType: "none" }}>
+                    
+                    
+                      <li class='list-item'>
                         <Link
                           style={{ textDecoration: "none", color: "black" }}
                           to="/contact"
@@ -142,7 +143,7 @@ function App() {
                           Contact
                         </Link>
                       </li>
-                    </h3>
+                    
                   </ul>
                 </nav>
               </div>
