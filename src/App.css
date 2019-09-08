@@ -50,7 +50,8 @@
   display: flex;
   flex-direction: row;
   margin: 0px;
-  text-align: right
+  text-align: right;
+  padding-right: 75px;
 }
 .list-item {
   padding: 0px 5px;
@@ -75,12 +76,60 @@
 }
 
 .about-page {
-  padding: 0px 100px
+  padding: 0px 50px;
+  text-align: center
 }
 
 .profile {
   padding: 20px;
   width: 50%;
+}
+
+/* contact page styles */
+
+.container {
+  text-align: center;
+  padding: 0px 50px
+}
+
+.title {
+  text-decoration: underline;
+  text-decoration-color: green;
+
+}
+
+.contactInfo {
+  display: flex;
+  font-size: 20px
+
+}
+
+.number {
+  color: green;
+  padding-left: 5px;
+
+}
+
+.email {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: left
+}
+
+.button {
+  color: green;
+  border-radius: 15px;
+  font-size: 15px
+}
+
+.social-media-links {
+  padding-top: 20px;
+  
+}
+
+.footer {
+  padding: 0px;
+  width: 100%
 }
 
 @media only screen and (max-width: 550px) {
@@ -91,7 +140,7 @@
     text-align: left;
   }
   .nav {
-    padding: 2px;
+    padding-right: 5px;
     flex-direction: column;
     
   }
@@ -112,7 +161,12 @@
     padding: 20px;
     width: 300px;
     text-align: center;
-    
+
+  }
+
+  .contactInfo {
+    flex-direction: column;
+  
   }
 
 }

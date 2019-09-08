@@ -38,8 +38,8 @@ function App() {
             <img
               style={{
                 width: "200px",
-                height: "200px",
-                padding: "20px", 
+                height: "200px", 
+                paddingLeft: '20px'
               }}
               src={Logo}
             ></img>
@@ -80,8 +80,8 @@ function App() {
                 ></img>
               </div>
               <div class='nav-div'>
-                <nav
-                  style={{ paddingRight: "75px" }}
+                <nav class='nav'
+                  
                 >
                   <ul class='nav' >
                     
