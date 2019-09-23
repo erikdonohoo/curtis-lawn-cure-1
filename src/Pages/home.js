@@ -4,6 +4,7 @@ import Guarantee from "../Images/Home/OurGuarantee.png";
 import Banner from '../Images/Home/BannerImage.jpg';
 
 
+
 function Home() {
   return (
     <div>
@@ -13,7 +14,7 @@ function Home() {
           display: "flex",
           flexDirection: "column",
           textAlign: "center",
-          padding: '10px 50px'
+          padding: '10px 20px'
         }}
       >
         <h3 style={{color:'green'}}>A Lawn Cure Program based on Local Experience</h3>
@@ -54,6 +55,7 @@ function Home() {
           to you.
         </p>
       </div>
+      
     </div>
   )
 }

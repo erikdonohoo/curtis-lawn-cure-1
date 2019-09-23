@@ -81,15 +81,25 @@
 }
 
 .profile {
-  padding: 20px;
+ padding: 20px;
   width: 50%;
+}
+
+.about-footer {
+  padding: 0;
+  
 }
 
 /* contact page styles */
 
+
+
 .container {
+  position: relative;
+  min-height: 100;
   text-align: center;
-  padding: 0px 50px
+  padding: 0px 50px;
+  
 }
 
 .title {
@@ -125,9 +135,11 @@
 .social-media-links {
   padding-top: 20px;
   
-}
+} 
 
 .footer {
+  bottom: 0;
+  position: absolute;
   padding: 0px;
   width: 100%
 }
@@ -158,15 +170,20 @@
   }
 
   .profile {
-    padding: 20px;
-    width: 300px;
+    padding: 20px 0px;
+    align-self: center;
     text-align: center;
+    width: 100%
 
   }
 
   .contactInfo {
     flex-direction: column;
-  
+    align-items: center;
+  }
+
+  .email {
+    text-align: center;
   }
 
 }
