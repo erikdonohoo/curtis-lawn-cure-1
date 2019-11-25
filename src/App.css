@@ -147,6 +147,7 @@
 @media only screen and (max-width: 550px) {
   .number{
     text-align: left;
+    font-size: 17px
   }
   .media-links{
     text-align: left;
@@ -236,3 +237,29 @@ img.bulletImg {
   text-align: center;
 }
 
+img.faqButton {
+  width: 35px;
+  height: auto;
+  
+}
+
+.qAndA {
+  display: flex;
+  padding: 10px 20px 0 20px
+}
+
+.text{
+  padding-left: 10px;
+  padding-top: 5px;
+  margin:0
+}
+
+.imageDiv {
+  height: relative
+}
+
+.faqTitle {
+  text-decoration: underline green;
+  text-align: center;
+  margin:0;
+}
