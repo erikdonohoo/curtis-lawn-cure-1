@@ -77,7 +77,7 @@ function About() {
       </div>
     </div>
     <div>
-      <img src={Grass} />
+    <img class='grass' src={Grass} />
     </div>
     </div>
   );

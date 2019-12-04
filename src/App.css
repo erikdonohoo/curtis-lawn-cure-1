@@ -192,6 +192,10 @@
     height:375px;
   }
 
+  img.grass {
+    width: 400px
+  }
+
 }
 
 /* services */
